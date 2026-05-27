@@ -1,0 +1,4 @@
+LinuxServer/**/*.pdb
+LinuxServer/**/*.debug
+LinuxServer/Engine/Content/
+.DS_Store
