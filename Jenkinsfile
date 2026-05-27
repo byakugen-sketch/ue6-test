@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "uzumaki420/ue5-gameserver"
         IMAGE_TAG  = "${BUILD_NUMBER}"
-        UE_ROOT    = "/Users/Shared/Epic Games/UE_5.5"
+        UE_ROOT    = "/Users/Shared/Epic Games/UE_5.7"
     }
 
     options {

@@ -9,7 +9,7 @@ public class ue6testServerTarget : TargetRules
 	{
 		Type = TargetType.Server;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		ExtraModuleNames.Add("ue6test");
 	}
 }

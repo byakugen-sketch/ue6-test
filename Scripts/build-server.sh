@@ -6,7 +6,7 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-UE_ROOT="/Users/Shared/Epic Games/UE_5.5"
+UE_ROOT="/Users/Shared/Epic Games/UE_5.7"
 UPROJECT="$PROJECT_ROOT/ue6test/ue6test.uproject"
 OUTPUT_DIR="$PROJECT_ROOT/Output"
 
